@@ -1,5 +1,6 @@
 {
   "schemaVersion": 1,
-  "message": "sweet world",
-  "color": "orange"
+  "label": "Status"
+  "message": "Drafting",
+  "color": "yellow"
 }
