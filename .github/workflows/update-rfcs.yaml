@@ -1,0 +1,10 @@
+name: update-rfcs
+on: [workflow_dispatch]
+jobs:
+  test-action:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - run: sudo apt-get update
+      - run: sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+      - run: sudo docker run hello-world
